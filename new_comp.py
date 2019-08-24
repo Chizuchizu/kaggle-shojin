@@ -2,7 +2,7 @@ import os
 
 
 def url():
-    return input("Please type competition name: ")
+    return input("Please type competition url: ")
 
 
 def title_script(url_name):
