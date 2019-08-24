@@ -17,6 +17,10 @@ def title_script(url_name):
         os.mkdir("Competition/" + title + "/model")
         os.mkdir("Competition/" + title + "/notebook")
         os.mkdir("Competition/" + title + "/Log")
+
+        with open("Competition/" + title + "/README.md", "w") as f:
+            f.write("# " + title)
+
         print("Done")
         print("Kaggle精進しろ")
 
